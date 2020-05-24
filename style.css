@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #eee;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 48px;
+  color: #384a44;
+}
+
+nav {
+  background: #384a44;
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 8px;
+  margin: 16px 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-line {
+  background: white;
+  position: absolute;
+  height: 2px;
+  top: 56px;
+
+  transition: all 0.7s cubic-bezier(0.43, 0.23, 0.29, 1.21);
+}
